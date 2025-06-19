@@ -1,0 +1,19 @@
+# Core ML/LLM Libraries for model handling
+torch
+transformers
+accelerate
+peft
+
+# RAG Framework and Vector Store
+faiss-cpu # or faiss-gpu if you have a compatible GPU and CUDA environment
+numpy
+sentence_transformers
+
+# PDF Processing
+PyPDF2
+pdfplumber
+fitz  # PyMuPDF
+
+# Optional: For rich text and progress bars in terminal
+rich
+tqdm
