@@ -15,7 +15,10 @@
 在项目根目录下，使用以下命令安装所有必需的库。
 `pip install -r requirements.txt`
 ### 准备数据与模型:
-将您的PDF文件（如《温病学》）放置在 config.py 中 pdf_input_dir 指定的目录（默认为 ../pdf）。
+#### 创建文件夹
+在根目录下创建models和pdf目录
+#### 下载模型和放置pdf文件
+将您的PDF文件（如《温病学》）放置在 config.py 中pdf_input_dir指定的目录（默认为 ../pdf）。
 下载您需要的基础语言模型（如 text2vec-base-chinese），然后放到models目录下面。
 ## 使用说明
 ### 构建RAG
